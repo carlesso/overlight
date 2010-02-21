@@ -23,11 +23,10 @@ $extend(Element.Styles, {'MozBorderRadius': '@px @px @px @px',
 var Overlight = new Class({
 	setOptions: function(options) {
 	    this.options = Object.extend({
-		    delay: 4,
-		    bg_color: '#000',
-		    onComplete: Class.empty,
-		    'html': '<h1>TEST</h1>',
 		    container: document.body,
+		    delay: 4000,
+		    bgColor: '#000',
+		    'html': '<h1>TEST</h1>',
 		    opacity: 0.65,
 		    duration: 500,
 		    width: 500,
@@ -42,7 +41,7 @@ var Overlight = new Class({
 		    'class': 'overlay_bg',
 		    'styles': {
 			'position': 'absolute',
-			'background-color': this.options.bg_color,
+			'background-color': this.options.bgColor,
 			'top': 0,
 			'left': 0,
 			'width': '100%',
