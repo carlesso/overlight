@@ -1,6 +1,6 @@
 name: Overlight
 current: 0.1
-author: carlesso
+author: ecarlesso
 category: Effects
 tags: [overlay,opacity,tween,fx]
 docs: http://www.ecarlesso.org/js/overlight
