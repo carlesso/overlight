@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overlight Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/overlight_demo.css" />
+    <script rel="text/javascript" src="js/mootools-1.2.4-core-yc.js"></script>
+    <script rel="text/javascript" src="js/overlight.js"></script>
+    <script rel="text/javascript">
+      //<![CDATA[
+document.addEvent('domready', function() {
+  over = new Overlight();
+  $('left_1').addEvent('click', function(e) {
+    e.stop();
+    over.show('<h4>This is a TEST</h4><br /><p>That will hide itself in 5 seconds</p>', 5000);
+  })
+  $('right_1').addEvent('click', function(e) {
+    e.stop();
+    over.show('<h3>This test is using the same Overlight istance</h3>', 2500);
+  })
+});
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id="title"><h3>Overlight Demo :: by <a href="http://www.ecarlesso.org">Enrico Carlesso</a></div>
+    <div id="left">
+      <div id="left_1">
+	<h2>Click on this DIV</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus.
+      </div>
+      <div id="left_2">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh sus
+      </div>
+      <div id="left_3">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem.
+      </div>
+    </div>
+    <div id="center">
+      <div id="center_1">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+      <div id="center_2">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+      <div id="center_3">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+    </div>
+    <div id="right">
+      <div id="right_1">
+	<h2>Or here too!</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+      <div id="right_2">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+      <div id="right_3">
+	<h2>Lorem Ipsum</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus nunc, lobortis id vehicula sit amet, blandit id sem. Proin ut magna eu ante volutpat lacinia fringilla in dolor. In hac habitasse platea dictumst. Nulla congue risus a justo condimentum cursus. Phasellus at turpis purus, vitae lobortis lacus. Donec purus nisl, convallis sed sodales id, pharetra a tortor. Vestibulum pellentesque nibh suscipit elit rhoncus pellentesque eleifend risus accumsan. Suspendisse ut diam sed felis pharetra porttitor ut at dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris viverra magna eget neque tincidunt ac commodo lorem vehicula. Sed porta ultrices odio, pulvinar fermentum nisl lobortis vitae. Maecenas in pulvinar purus. Nam non lorem ac mi pretium ultricies. Mauris ullamcorper consequat dictum. Mauris cursus fringilla turpis, non tristique leo ultrices a. Aenean mollis turpis eget tortor ultrices vitae adipiscing nibh tempor. In hac habitasse platea dictumst.</p>
+      </div>
+    </div>
+  </body>
+</html>
+      

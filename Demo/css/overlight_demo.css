@@ -1,0 +1,26 @@
+#title {
+    width: 100%;
+}
+#title h3 {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#left {
+    float: left;
+    width: 20%;
+
+}
+#center  {
+    float: left;
+    width: 50%;
+    border-right: 2px solid #111199;
+    border-left: 2px solid #111199;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+#right {
+    float: right;
+    width: 20%;
+}
