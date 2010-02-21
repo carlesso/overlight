@@ -3,8 +3,6 @@ Overlay
 
 Overlight is a simple lightbox implementation useful to display content on users click and let them disappear by timeout and/or click
 
-![Screenshot](http://davidwalsh.name/dw-content/overlayscreen.png)
-
 How to Use
 ----------
 
